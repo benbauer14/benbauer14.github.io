@@ -3,13 +3,17 @@ th {
 }
 table, th, td {
   border: 1px solid white;
-  border-collapse: collapse;
+  border-collapse: collapse
+}
+th{
+  width: 33%;
+  text-align: center;
 }
 body{
   background-image: url("http://www.desktopimages.org/pictures/2015/1104/1/dark-blue-texture-background-309257.jpg");
   color: #f0f0f9;
   font-family: Arial, Helvetica, san-serif;
-  margin: 10% 15%;
+  margin: 10% 15%
 }
 h3{
   border: 1px solid white;
@@ -21,4 +25,7 @@ h5{
 a{
   font-style: 3;
   color: #f0f0f9;
+}
+div.intro{
+  line-height: 5px ;
 }
